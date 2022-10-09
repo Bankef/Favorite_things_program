@@ -1,0 +1,84 @@
+
+    #page-title{
+        font-family: "Baskerville Old Face";
+    text-shadow: 4px 2px #030339;
+    margin: 2px;
+    color: #be0712;
+    font-size: 50px;
+    text-align: center;
+    }
+
+    .favorite-section{
+    margin: 15px;
+    border: 2px;
+    border-style: dashed;
+    border-color: deeppink;
+    background-color: #1d0c46;
+    padding: 10px;
+    }
+
+    .section-header {
+    color: #21be21;
+    font-size: 35px;
+    font-family: "Book Antiqua";
+    }
+    h1{
+    color: #21be21;
+    font-family: "Bodoni MT";
+    text-align: center;
+    text-decoration: aquamarine;
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+    }
+
+    body {
+        background-color: chocolate;
+        font-family: "Corbel Light"
+    }
+
+    li {
+        list-style-type: square;
+        color: gold;
+        padding: 6px;
+    }
+
+    table, tr, th, td {
+        border-collapse: collapse;
+        font-family: Dubai;
+        color: white;
+    }
+
+    th{
+    width: 400px;
+    background-color: cornflowerblue;
+    color: white;
+    }
+
+    td{
+        text-align: center;
+        color: black;
+    }
+    tr:nth-child(even) {
+        background-color: darkgrey;
+    }
+
+    tr:nth-child(odd){
+        background-color: dodgerblue;
+    }
+
+    #most-favorite{
+        background-color: blue;
+        text-decoration: underline;
+    }
+
+    #favorite-musician {
+        background-color: #030339;
+    }
+
+    .favorite-image{
+        filter: dropShadow(5px);
+        border-radius: 25px;
+    }
